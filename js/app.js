@@ -89,8 +89,5 @@ let q6 = prompt ('Is coding my dream career?').toUpperCase();
     alert('Incorrect, i\'m learning to code because of a workplace accident, I plan on becoming a tattoo artist by the age of 40.')}
   else if (q6 === 'NO' || q6 === 'N'){
   alert ('Correct, I plan on becoming a tattoo artist by the time i\'m 40!')}
-  
-  
-
 }
 
