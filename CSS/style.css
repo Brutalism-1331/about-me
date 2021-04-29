@@ -1,5 +1,9 @@
 body {background-color: rgb(28, 13, 53);color: rgb(18, 154, 56);}
 
 
-h1 {color: chartreuse;}
+h1, h3 {color: chartreuse;font-size: 200%;padding: 5%;}
 
+nav {padding: 5%;}
+ul, ol {padding: 2%;}
+
+p {padding: 3%;}
