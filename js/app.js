@@ -66,4 +66,24 @@ else if (q6 === 'NO' || q6 === 'N') {
 
 alert ('Congratulations '+ user +' you just learned so many new things all about ME!!');
 
+let correctAnswer = 13
+let attempts = 3
+let didUser = false
+for (let i = 0; i < attempts; i++) {
 
+  let q7 = prompt('Pick a number');
+  let numberAnswer = parseInt(q7);
+
+  if (numberAnswer === correctAnswer) {
+    alert('Well done you are correct')
+    console.log('numberAnswer:' + numberAnswer)
+    didUser = true
+    break;
+  } else if (numberAnswer < correctAnswer && i < attempts - 1) {
+    alert('Incorrect, Please choose a higher number. (HINT: It\'s less than 20)');
+    console.log('numberAnswer:' + numberAnswer);
+  } else if (numberAnswer > correctAnswer && i < attempts - 1){
+    alert('Incorrect, Please choose a lower number. (HINT: It\'s less than 20)');
+  }
+}
+if (!didUser){ alert(`The correct answer was ${correctAnswer}`)}
