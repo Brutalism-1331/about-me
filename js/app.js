@@ -75,15 +75,18 @@ else if (q5 === 'NO' || q5 === 'N') {
 }
 question5();
 
-// let q6 = prompt('Is coding my dream career?').toUpperCase();
-// if (q6 === 'YES' || q6 === 'Y') {
-//   // console.log('q6:' + q6);
-//   alert('Incorrect, i\'m learning to code because of a workplace accident, I plan on becoming a tattoo artist by the age of 40.')
-// }
-// else if (q6 === 'NO' || q6 === 'N') {
-//   alert('Correct, I plan on becoming a tattoo artist by the time i\'m 40!');
-//   totalCorrect ++;
-// }
+function question6(){
+let q6 = prompt('Is coding my dream career?').toUpperCase();
+if (q6 === 'YES' || q6 === 'Y') {
+  // console.log('q6:' + q6);
+  alert('Incorrect, i\'m learning to code because of a workplace accident, I plan on becoming a tattoo artist by the age of 40.')
+}
+else if (q6 === 'NO' || q6 === 'N') {
+  alert('Correct, I plan on becoming a tattoo artist by the time i\'m 40!');
+  totalCorrect ++;
+}
+}
+question6();
 
 // alert('Congratulations ' + user + ' you just learned so many new things all about ME!!');
 
