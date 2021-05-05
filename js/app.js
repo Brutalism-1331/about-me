@@ -88,36 +88,39 @@ else if (q6 === 'NO' || q6 === 'N') {
 }
 question6();
 
-// alert('Congratulations ' + user + ' you just learned so many new things all about ME!!');
+alert('Congratulations ' + user + ' you just learned so many new things all about ME!!');
 
-// let correctAnswer = 13
-// let attempts = 4
-// let didUser = false
-// for (let i = 0; i < attempts; i++) {
+function question7(){
+let correctAnswer = 13
+let attempts = 4
+let didUser = false
+for (let i = 0; i < attempts; i++) {
 
-//   let q7 = prompt('Pick a number');
-//   let numberAnswer = parseInt(q7);
+  let q7 = prompt('Pick a number');
+  let numberAnswer = parseInt(q7);
 
-//   if (numberAnswer === correctAnswer) {
-//     alert('Well done you are correct')
-//     // console.log('numberAnswer:' + numberAnswer)
-//     didUser = true;
-//     totalCorrect ++;
-//     break;
-//   } else if (numberAnswer < correctAnswer && i < attempts - 1) {
-//     alert('Incorrect, Please choose a higher number. (HINT: It\'s less than 20)');
-//     // console.log('numberAnswer:' + numberAnswer);
-//   } else if (numberAnswer > correctAnswer && i < attempts - 1) {
-//     alert('Incorrect, Please choose a lower number. (HINT: It\'s less than 20)');
-//   }
-// }
-// if (!didUser) { alert(`The correct answer was ${correctAnswer}`) }
+  if (numberAnswer === correctAnswer) {
+    alert('Well done you are correct')
+    // console.log('numberAnswer:' + numberAnswer)
+    didUser = true;
+    totalCorrect ++;
+    break;
+  } else if (numberAnswer < correctAnswer && i < attempts - 1) {
+    alert('Incorrect, Please choose a higher number. (HINT: It\'s less than 20)');
+    // console.log('numberAnswer:' + numberAnswer);
+  } else if (numberAnswer > correctAnswer && i < attempts - 1) {
+    alert('Incorrect, Please choose a lower number. (HINT: It\'s less than 20)');
+  }
+}
+if (!didUser) { alert(`The correct answer was ${correctAnswer}`) }
+}
+question7();
 
-// let aussieSlang = [ 'YEAHNAH', 'NAHYEAH', 'MATE', 'RECKON', 'BOGAN', 'CRIKEY', 'THONGS' ];
-// let guessesRemain = 6;
-// let answerSlang = false;
-// // console.log('aussieSlang:' + aussieSlang)
-// // console.log(aussieSlang.length);
+let aussieSlang = [ 'YEAHNAH', 'NAHYEAH', 'MATE', 'RECKON', 'BOGAN', 'CRIKEY', 'THONGS' ];
+let guessesRemain = 6;
+let answerSlang = false;
+// console.log('aussieSlang:' + aussieSlang)
+// console.log(aussieSlang.length);
 
 // let q8 = prompt('Can you guess one of the seven Aussie Slang words?').toUpperCase();
 // for (let i = 0; i < aussieSlang.length; i++){
