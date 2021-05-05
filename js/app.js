@@ -36,15 +36,18 @@ else if (q2 === 'NO' || q2 === 'N') {
 }
 question2();
 
-// let q3 = prompt('Did i complete highschool?').toUpperCase();
-// if (q3 === 'YES' || q3 === 'Y') {
-//   // console.log('q3:' + q3);
-//   alert('Incorrect, I left at the end of grad-10 to start my plumbing apprenticeship at age-16.')
-// }
-// else if (q3 === 'NO' || q3 === 'N') {
-//   alert('Correct, I left school to start my plumbing apprenticeship at age 16, True fact i had to ride 5km to work every morning.');
-//   totalCorrect ++;
-// }
+function question3(){
+let q3 = prompt('Did i complete highschool?').toUpperCase();
+if (q3 === 'YES' || q3 === 'Y') {
+  // console.log('q3:' + q3);
+  alert('Incorrect, I left at the end of grad-10 to start my plumbing apprenticeship at age-16.')
+}
+else if (q3 === 'NO' || q3 === 'N') {
+  alert('Correct, I left school to start my plumbing apprenticeship at age 16, True fact i had to ride 5km to work every morning.');
+  totalCorrect ++;
+}
+}
+question3();
 
 // let q4 = prompt('Do i own a dog?').toUpperCase();
 // if (q4 === 'YES' || q4 === 'Y') {
