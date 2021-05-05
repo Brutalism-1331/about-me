@@ -49,15 +49,18 @@ else if (q3 === 'NO' || q3 === 'N') {
 }
 question3();
 
-// let q4 = prompt('Do i own a dog?').toUpperCase();
-// if (q4 === 'YES' || q4 === 'Y') {
-//   // console.log('q4:' + q4);
-//   alert('Correct, I owen a 17 week old Husky puppy called Benzaiten!');
-//   totalCorrect ++;
-// }
-// else if (q4 === 'NO' || q4 === 'N') {
-//   alert('Incorrect, I owen a 17 week old Husky puppy named Benzaiten!')
-// }
+function question4(){
+let q4 = prompt('Do i own a dog?').toUpperCase();
+if (q4 === 'YES' || q4 === 'Y') {
+  // console.log('q4:' + q4);
+  alert('Correct, I owen a 17 week old Husky puppy called Benzaiten!');
+  totalCorrect ++;
+}
+else if (q4 === 'NO' || q4 === 'N') {
+  alert('Incorrect, I owen a 17 week old Husky puppy named Benzaiten!')
+}
+}
+question4();
 
 // let q5 = prompt('Do i know how many tattoos i have?').toUpperCase();
 // if (q5 === 'YES' || q5 === 'Y') {
