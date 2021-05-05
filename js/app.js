@@ -116,38 +116,41 @@ if (!didUser) { alert(`The correct answer was ${correctAnswer}`) }
 }
 question7();
 
+function question8(){
 let aussieSlang = [ 'YEAHNAH', 'NAHYEAH', 'MATE', 'RECKON', 'BOGAN', 'CRIKEY', 'THONGS' ];
 let guessesRemain = 6;
 let answerSlang = false;
-// console.log('aussieSlang:' + aussieSlang)
-// console.log(aussieSlang.length);
+console.log('aussieSlang:' + aussieSlang)
+console.log(aussieSlang.length);
 
-// let q8 = prompt('Can you guess one of the seven Aussie Slang words?').toUpperCase();
-// for (let i = 0; i < aussieSlang.length; i++){
-//   // console.log(aussieSlang[i]);
-//   if (q8 === aussieSlang[i]){
-//     alert('NahYeah mate i reckon you got this one correct!');
-//     answerSlang = true;
-//     totalCorrect ++;
-//     break;
-//   }
-// }while (!answerSlang && guessesRemain){
-//   guessesRemain --;
-//   console.log(guessesRemain)
-//  alert('YeahNah mate guess again!')
-//  let q8 = prompt('Can you guess one of the seven Aussie Slang words?').toUpperCase();
-//  for (let i = 0; i < aussieSlang.length; i++){
-//   //  console.log(aussieSlang[i]);
-//    if (q8 === aussieSlang[i]){
-//      alert('NahYeah mate i reckon you got this one correct!');
-//      answerSlang = true;
-//      totalCorrect ++;
-//      break;
-//    }
-//   }
-// }
+let q8 = prompt('Can you guess one of the seven Aussie Slang words?').toUpperCase();
+for (let i = 0; i < aussieSlang.length; i++){
+  // console.log(aussieSlang[i]);
+  if (q8 === aussieSlang[i]){
+    alert('NahYeah mate i reckon you got this one correct!');
+    answerSlang = true;
+    totalCorrect ++;
+    break;
+  }
+}while (!answerSlang && guessesRemain){
+  guessesRemain --;
+  console.log(guessesRemain)
+ alert('YeahNah mate guess again!')
+ let q8 = prompt('Can you guess one of the seven Aussie Slang words?').toUpperCase();
+ for (let i = 0; i < aussieSlang.length; i++){
+  //  console.log(aussieSlang[i]);
+   if (q8 === aussieSlang[i]){
+     alert('NahYeah mate i reckon you got this one correct!');
+     answerSlang = true;
+     totalCorrect ++;
+     break;
+   }
+  }
+}
+}
+question8();
 
-// alert(`${user} you got ${totalCorrect} answers correct out of 8 well done.`)
-// console.log(totalCorrect)
+alert(`${user} you got ${totalCorrect} answers correct out of 8 well done.`)
+console.log(totalCorrect)
 
 
