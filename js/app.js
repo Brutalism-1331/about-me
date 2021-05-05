@@ -62,15 +62,18 @@ else if (q4 === 'NO' || q4 === 'N') {
 }
 question4();
 
-// let q5 = prompt('Do i know how many tattoos i have?').toUpperCase();
-// if (q5 === 'YES' || q5 === 'Y') {
-//   // console.log('q5:' + q5);
-//   alert('Incorrect, All i know is i\'ve got 300+ hours of being tattooed and won\'t stop till i complete the vision i had at 13. ')
-// }
-// else if (q5 === 'NO' || q5 === 'N') {
-//   alert('Correct, All i know is when i\'m finished i\'ll be 99% covered and have only one tattoo!!!  ');
-//   totalCorrect ++;
-// }
+function question5(){
+let q5 = prompt('Do i know how many tattoos i have?').toUpperCase();
+if (q5 === 'YES' || q5 === 'Y') {
+  // console.log('q5:' + q5);
+  alert('Incorrect, All i know is i\'ve got 300+ hours of being tattooed and won\'t stop till i complete the vision i had at 13. ')
+}
+else if (q5 === 'NO' || q5 === 'N') {
+  alert('Correct, All i know is when i\'m finished i\'ll be 99% covered and have only one tattoo!!!  ');
+  totalCorrect ++;
+}
+}
+question5();
 
 // let q6 = prompt('Is coding my dream career?').toUpperCase();
 // if (q6 === 'YES' || q6 === 'Y') {
