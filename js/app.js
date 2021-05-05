@@ -1,12 +1,12 @@
 'use strict'
-function getTotal(){
-  let totalCorrect = 0
-}
+let totalCorrect = 0
+
 
 
 let user = prompt('What is your name?').toUpperCase();
 alert('Hello ' + user + ' welcome to my about me page!');
 
+function question1(){
 let q1 = prompt('Are you ready to play a Yes or No question game? Answer Y/N!').toUpperCase();
 
 if (q1 === 'YES' || q1 === 'Y') {
@@ -20,7 +20,8 @@ else if (q1 === 'NO' || q1 === 'N') {
 else {
   alert('Don\'t give up yet')
 }
-
+}
+question1();
 
 let q2 = prompt('Was i born in Canada?').toUpperCase();
 if (q2 === 'YES' || q2 === 'Y') {
