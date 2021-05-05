@@ -1,5 +1,8 @@
 'use strict'
-let totalCorrect = 0
+function getTotal(){
+  let totalCorrect = 0
+}
+
 
 let user = prompt('What is your name?').toUpperCase();
 alert('Hello ' + user + ' welcome to my about me page!');
